@@ -89,6 +89,15 @@ const graph09 = {
   8: [],
 };
 
+const graph14 = {
+  A: ["B", "C"],
+  B: ["D", "E"],
+  C: ["D", "F"],
+  D: [],
+  E: ["F"],
+  F: [],
+};
+
 const edges0 = [
   ["w", "x"],
   ["x", "y"],
@@ -387,4 +396,5 @@ module.exports = {
   graph11,
   graph12,
   graph13,
+  graph14,
 };
