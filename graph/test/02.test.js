@@ -1,13 +1,13 @@
 const { describe, it } = require("node:test");
 const { equal } = require("node:assert/strict");
-const { graph05, graph06, graph07, graph08, graph09 } = require("./data");
+const { graph05, graph06, graph07, graph08, graph09 } = require("../data/data");
 const {
   connected_comp_count,
   largestComponent,
   connected_comp_count_01,
-} = require("./02");
+} = require("../src/02");
 
-/** @type {{test_no: number, graph: import("./02").GraphT | {}, exp: number}[]} */
+/** @type {{test_no: number, graph: import("../src/02").GraphT | {}, exp: number}[]} */
 const connected_comp_arr = [
   { test_no: 1, graph: graph05, exp: 2 },
   { test_no: 2, graph: graph06, exp: 1 },
@@ -25,7 +25,7 @@ describe("test connected_comp_count", () => {
   }
 });
 
-/** @type {{test_no: number, graph: import("./02").GraphT | {}, exp: number}[]} */
+/** @type {{test_no: number, graph: import("../src/02").GraphT | {}, exp: number}[]} */
 const largest_component_arr = [
   { test_no: 1, graph: graph05, exp: 4 }, // 4
   { test_no: 2, graph: graph06, exp: 6 },

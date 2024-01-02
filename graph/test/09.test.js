@@ -1,8 +1,15 @@
 const { describe, it } = require("node:test");
 const { equal } = require("assert/strict");
 
-const { edges4, edges5, edges6, edges7, edges8, edges9 } = require("./data");
-const { semisterRequired } = require("./09");
+const {
+  edges4,
+  edges5,
+  edges6,
+  edges7,
+  edges8,
+  edges9,
+} = require("../data/data");
+const { semisterRequired } = require("../src/09");
 
 const semister_required_arr = [
   { no: 0, edges: edges4, num_courses: 6, exp: 3 },

@@ -1,4 +1,4 @@
-const a = require("./01");
+const a = require("../src/01");
 const { describe, it } = require("node:test");
 const { equal } = require("node:assert/strict");
 const { deepEqual } = require("node:assert");

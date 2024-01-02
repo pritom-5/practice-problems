@@ -1,7 +1,7 @@
 const { describe, it, only } = require("node:test");
 const { deepEqual, equal } = require("node:assert/strict");
-const { graph00, graph01, graph02, graph03, graph04 } = require("./data");
-const { hasPath, hasPath_01, hasDirectPath } = require("./01");
+const { graph00, graph01, graph02, graph03, graph04 } = require("../data/data");
+const { hasPath, hasPath_01, hasDirectPath } = require("../src/01");
 
 const Arr = [
   { a: 1, b: 2, c: 3 },

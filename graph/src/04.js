@@ -1,5 +1,5 @@
-const { convertEdgesToGraph } = require("./03");
-const { edges0 } = require("./data");
+const { convertEdgesToGraph } = require("../src/03");
+const { edges0 } = require("../data/data");
 
 /** @param {GraphT} graph  */
 function bfs(graph, s, d) {

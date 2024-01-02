@@ -1,7 +1,7 @@
 const { equal } = require("assert/strict");
 const { describe, it } = require("node:test");
-const { edges0, edges1, edges2, edges3 } = require("./data");
-const { shortestPath } = require("./03");
+const { edges0, edges1, edges2, edges3 } = require("../data/data");
+const { shortestPath } = require("../src/03");
 
 const test_arr = [
   { test_no: 5, edges: edges1, start: "b", end: "g", exp: -1 },

@@ -1,9 +1,9 @@
 const { describe, it } = require("node:test");
 const { equal } = require("node:assert/strict");
 
-const { grid0, grid1, grid2, grid3 } = require("./data");
-const { islandCount } = require("./05");
-const { minimunIsland } = require("./06");
+const { grid0, grid1, grid2, grid3 } = require("../data/data");
+const { islandCount } = require("../src/05");
+const { minimunIsland } = require("../src/06");
 
 /**
  * @typedef {{no: number, grid: GraphGridT, island_count_exp: number, min_island_exp:number}} ISLAND_COUNT_VALUES_T

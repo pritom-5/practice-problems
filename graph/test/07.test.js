@@ -1,7 +1,7 @@
 const { it, describe } = require("node:test");
 const { equal } = require("assert/strict");
-const { grid5, grid6, grid7, grid4, grid8 } = require("./data");
-const { closestCarrot } = require("./07");
+const { grid5, grid6, grid7, grid4, grid8 } = require("../data/data");
+const { closestCarrot } = require("../src/07");
 
 const carrot_grid_arr = [
   { no: 1, grid: grid4, x: 1, y: 2, exp_0: 4 },

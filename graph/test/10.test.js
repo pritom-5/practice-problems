@@ -9,8 +9,8 @@ const {
   edges14,
   edges15,
   edges16,
-} = require("./data");
-const { preqsAvailable } = require("./10");
+} = require("../data/data");
+const { preqsAvailable } = require("../src/10");
 
 const preqs_avalilable_arr = [
   { no: 0, edges: edges10, total: 6, exp: true },
