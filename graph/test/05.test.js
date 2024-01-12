@@ -20,7 +20,6 @@ describe("island_count", () => {
   for (const { island_count_exp, grid, no } of island_count_values) {
     it(`test: ${no}`, () => {
       const res = islandCount(grid);
-
       equal(res, island_count_exp);
     });
   }
