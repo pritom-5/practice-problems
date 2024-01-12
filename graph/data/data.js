@@ -313,14 +313,14 @@ const grid8 = [
   ["C", "X", "O", "O", "O"],
 ];
 
-/** @type {GraphT} */
+/** @type {import("../types").Graph<string>} */
 const graph10 = {
   a: ["c", "b"],
   b: ["c"],
   c: [],
 };
 
-/** @type {GraphT} */
+/** @type {import("../types").Graph<string>} */
 const graph11 = {
   a: ["c", "b"],
   b: ["c"],
@@ -332,7 +332,7 @@ const graph11 = {
   u: [],
 };
 
-/** @type {GraphT} */
+/** @type {import("../types").Graph<string>} */
 const graph12 = {
   h: ["i", "j", "k"],
   g: ["h"],
@@ -343,7 +343,7 @@ const graph12 = {
   y: [],
 };
 
-/** @type {GraphT} */
+/** @type {import("../types").Graph<string>} */
 const graph13 = {
   a: ["b"],
   b: ["c"],
