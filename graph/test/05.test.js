@@ -1,7 +1,7 @@
 const { describe, it } = require("node:test");
 const { equal } = require("node:assert/strict");
 
-const { grid0, grid1, grid2, grid3 } = require("../data/data");
+const { grid0, grid1, grid2, grid3 } = require("../data/graph_bank");
 const { islandCount } = require("../src/05");
 const { minimunIsland } = require("../src/06");
 

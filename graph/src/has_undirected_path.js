@@ -6,7 +6,7 @@
 function hasUndirectedPath(edges, curr_node, target) {
   const graph = convertEdgesToGraph(edges);
 
-  console.log("____graph____", graph);
+  // console.log("____graph____", graph);
 
   return walk(graph, curr_node, target);
 }

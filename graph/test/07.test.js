@@ -1,6 +1,6 @@
 const { it, describe } = require("node:test");
 const { equal } = require("assert/strict");
-const { grid5, grid6, grid7, grid4, grid8 } = require("../data/data");
+const { grid5, grid6, grid7, grid4, grid8 } = require("../data/graph_bank");
 const { closestCarrot } = require("../src/07");
 
 const carrot_grid_arr = [

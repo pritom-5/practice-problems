@@ -1,4 +1,4 @@
-const { graph10, graph11, graph12, graph13 } = require("../../data/data");
+const { graph10, graph11, graph12, graph13 } = require("../graph_bank");
 
 const longest_path_test_data = [
   { no: 0, graph: graph10, exp: 2 },

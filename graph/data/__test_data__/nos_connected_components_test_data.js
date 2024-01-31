@@ -1,4 +1,10 @@
-const { graph05, graph06, graph07, graph08, graph09 } = require("../data");
+const {
+  graph05,
+  graph06,
+  graph07,
+  graph08,
+  graph09,
+} = require("../graph_bank");
 
 /** @type {{test_no: number, graph: import("../../types").Graph<number> | {}, exp: number}[]} */
 const nos_connected_components_test_data = [

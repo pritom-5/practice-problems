@@ -4,7 +4,7 @@ const {
   graph07,
   graph08,
   graph09,
-} = require("../../data/data");
+} = require("../graph_bank");
 
 /** @type {{test_no: number, graph: import("../../types").Graph<number> | {}, exp: number}[]} */
 const largest_component_arr = [

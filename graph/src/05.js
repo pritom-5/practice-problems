@@ -4,7 +4,7 @@
  * if haven't visited it : new island : update count : travel through the
  * island and add all of the points of the add to seen
  */
-const { grid0 } = require("../data/data");
+const { grid0 } = require("../data/graph_bank");
 
 /** @param {GraphGridT} graph_grid  */
 function islandCount(graph_grid) {

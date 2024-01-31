@@ -1,4 +1,4 @@
-const { graph02, graph03, graph04 } = require("../data");
+const { graph02, graph03, graph04 } = require("../graph_bank");
 
 const has_undirected_path_values = [
   { test_no: 1, graph: graph02, node_1: "j", node_2: "m", exp: true },

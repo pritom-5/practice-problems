@@ -1,4 +1,4 @@
-const { edges0, edges1, edges2, edges3 } = require("../../data/data");
+const { edges0, edges1, edges2, edges3 } = require("../graph_bank");
 
 const shortest_path_test_data = [
   { test_no: 0, edges: edges0, start: "w", end: "z", exp: 2 },

@@ -1,4 +1,4 @@
-const { graph00, graph01 } = require("../data");
+const { graph00, graph01 } = require("../graph_bank");
 const { hasPath } = require("../../src/has_path");
 
 const hasPath_test_data = [

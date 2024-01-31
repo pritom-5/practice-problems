@@ -7,7 +7,7 @@ function shortestPath(edges, start, end) {
   /** @type {import("../types").Graph<string>} */
   const graph = convertEdgesToGraph(edges);
 
-  console.log("___graph___", graph);
+  // console.log("___graph___", graph);
 
   return walk(graph, start, end);
 }

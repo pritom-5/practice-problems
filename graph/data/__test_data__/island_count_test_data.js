@@ -1,4 +1,4 @@
-const { grid0, grid1, grid2, grid3 } = require("../../data/data");
+const { grid0, grid1, grid2, grid3 } = require("../graph_bank");
 
 /**
  * @typedef {{no: number, grid: GraphGridT, island_count_exp: number, min_island_exp:number}} ISLAND_COUNT_VALUES_T

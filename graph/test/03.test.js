@@ -1,6 +1,6 @@
 const { equal } = require("assert/strict");
 const { describe, it } = require("node:test");
-const { edges0, edges1, edges2, edges3 } = require("../data/data");
+const { edges0, edges1, edges2, edges3 } = require("../data/graph_bank");
 const { shortestPath } = require("../src/03");
 
 const test_arr = [

@@ -1,4 +1,4 @@
-const { graph14 } = require("../data/data");
+const { graph14 } = require("../data/graph_bank");
 
 /**
  * @param {GraphT} graph

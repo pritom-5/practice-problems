@@ -1,7 +1,7 @@
 const { describe, it } = require("node:test");
 const { equal } = require("assert/strict");
 
-const { graph10, graph11, graph12, graph13 } = require("../data/data");
+const { graph10, graph11, graph12, graph13 } = require("../data/graph_bank");
 const { longestPath } = require("../src/08");
 
 const longest_path_arr = [

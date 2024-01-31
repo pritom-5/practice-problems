@@ -1,6 +1,12 @@
 const { describe, it } = require("node:test");
 const { equal } = require("node:assert/strict");
-const { graph05, graph06, graph07, graph08, graph09 } = require("../data/data");
+const {
+  graph05,
+  graph06,
+  graph07,
+  graph08,
+  graph09,
+} = require("../data/graph_bank");
 const {
   connected_comp_count,
   largestComponent,

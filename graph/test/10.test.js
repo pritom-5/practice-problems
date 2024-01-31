@@ -9,7 +9,7 @@ const {
   edges14,
   edges15,
   edges16,
-} = require("../data/data");
+} = require("../data/graph_bank");
 const { preqsAvailable } = require("../src/10");
 
 const preqs_avalilable_arr = [

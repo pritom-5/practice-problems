@@ -2,7 +2,7 @@
  * @typedef {Record<string, Array<string>>} GraphT
  */
 
-const { graph02 } = require("../data/data");
+const { graph02 } = require("../data/graph_bank");
 
 /**
  * @param {GraphT} graph

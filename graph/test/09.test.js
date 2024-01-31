@@ -8,7 +8,7 @@ const {
   edges7,
   edges8,
   edges9,
-} = require("../data/data");
+} = require("../data/graph_bank");
 const { semisterRequired } = require("../src/09");
 
 const semister_required_arr = [
